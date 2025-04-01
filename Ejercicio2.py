@@ -1,0 +1,6 @@
+base_rect = float(input("Ingresa la base del rectangulo: "))
+altura_rect = float(input("Ingresa la altura del rectangulo: "))
+area_rect = (base_rect * altura_rect)
+perimetro = 2 * (base_rect + altura_rect)
+print("El perímetro del rectangulo: ", perimetro)
+print("El área del rectangulo es:", area_rect)
