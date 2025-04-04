@@ -1,5 +1,4 @@
-print("Bienvenido a mi calculadora de salario neto:")
-salario_bruto = float(input())
+salario_bruto = float(input("Bienvenido a mi calculadora de salario neto:" ))
 desc_renta = salario_bruto * 0.10
 desc_seguro = salario_bruto * 0.05
 Fond_pensiones = salario_bruto * 0.03
