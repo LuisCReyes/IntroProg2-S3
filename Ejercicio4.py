@@ -12,5 +12,5 @@ Sum3 = Sum2 + segunda_escala
 Sum_vuelo = Sum3 + tercer_tramo
 
 print("----------------------------------------------------------------------------------")
-print("El tiempo total del vuelo es de: ", Sum_vuelo, "Horas")
+print(f"El tiempo total del vuelo es de: {Sum_vuelo} Horas")
 print("----------------------------------------------------------------------------------")
