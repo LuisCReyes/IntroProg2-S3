@@ -32,5 +32,5 @@ print(f"Cliente: {cliente}")
 print("Productos\tcantidad\tPrecio\tTotal")  #\t es para tabular
 print(f"{producto:>10}{cantidad:>10}{precio:>10}{total:>10}")
 print(f"IVA: {iva: .2f}")
-print(f"Desc: {descuento}")
-print(f"Monto: {monto}")
+print(f"Desc: {descuento: .2f}")
+print(f"Monto: {monto: .2f}")
